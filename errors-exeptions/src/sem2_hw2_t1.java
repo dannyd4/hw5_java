@@ -7,7 +7,7 @@ public class sem2_hw2_t1 {
         System.out.println("Введённое число = "+ number);
     }
 
-    public static <inputMismatchException> float getOnlyFloatNumber(){
+    public static float getOnlyFloatNumber(){
         Scanner scanner = new Scanner(System.in);
         float num = 0f;
         boolean flag = true;
